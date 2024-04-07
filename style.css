@@ -1,0 +1,149 @@
+body
+{
+  margin: 20px;
+  font-family: Rubik ;
+}
+
+
+
+h1
+{
+  font-family: Rubik ;
+  text-align: center;
+}
+.navbar ul{
+  list-style-type: none;
+  background-color: rgb(202, 195, 195);
+  padding:0;
+  margin:0;
+  overflow: hidden;
+  
+
+}
+
+.navbar li
+{
+  color:white;
+  padding:15px;
+  display: block;
+  text-align: center;
+  float: left;
+}
+
+
+
+.main
+{margin-top: 100px;
+  border-style: solid;
+  height:50vh;
+  width:100%;
+  display: flex;
+
+}
+
+
+.left-section
+{
+ margin-top:20px;
+  width:100%;
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+.our-misson
+{
+  
+ 
+  margin-right:10%;
+  
+  
+}
+h2
+{
+  margin:0;
+  padding: 0;
+  text-align: center;
+}
+
+.left-section p
+{
+  text-align: center;
+  line-height: 34px;
+  width:600px;
+  padding: 0;
+}
+
+
+
+
+.img-contain
+{
+  
+  box-shadow: 1px 1px 5px;
+  margin-right:20px;
+  margin-left:-5%;
+  
+  
+  
+}
+
+
+
+#man-god
+{
+  object-fit: cover;
+  width:300px
+  
+
+}
+
+.main-CTA 
+{
+  
+ 
+  position: relative;
+  top:-70px;
+  margin:0;
+  padding: 0;
+  align-items: center;
+ 
+  
+}
+
+label
+{
+  margin-left:25%;
+}
+
+button
+{margin-top:10%;
+  margin-left:250px;
+}
+
+#submit
+{
+  border:none;
+  padding:10px 15px 10px 15px;
+  background-color: rgb(10, 166, 244);
+  color:white;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 575;
+  transition: box-shadow, opacity 0.5s;
+
+}
+
+#submit:hover{
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+#submit:active
+{
+  opacity: 0.5;
+}
